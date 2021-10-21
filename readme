@@ -73,31 +73,31 @@
 
     1.  Need to alter the config.json file under ./src/config folder like below
     2.  {
-            "development": {
-                "username": "root",
-                "password": "password",
-                "database":  "data_collection_app_db",
-                "host": "127.0.0.1",
-                "dialect": "mysql",
-                "logging": false
-            },
-            "test": {
-                "username": "root",
-                "password": "password",
-                "database":  "data_collection_app_db",
-                "host": "127.0.0.1",
-                "dialect": "mysql",
-                "logging": false
-            },
-            "production": {
-                "username": "root",
-                "password": "password",
-                "database":  "data_collection_app_db",
-                "host": "127.0.0.1",
-                "dialect": "mysql",
-                "logging": false
-            }
-        }
+  "development": {
+    "username": "postgres",
+    "password": "password",
+    "database": "administrater-invoice-api",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "test": {
+    "username": "postgres",
+    "password": "password",
+    "database": "administrater-invoice-apit",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "production": {
+    "username": "postgres",
+    "password": "password",
+    "database": "administrater-invoice-api",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "logging": false
+  }
+}
 
 # Execute command to add model files
 
